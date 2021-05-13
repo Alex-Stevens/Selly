@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "defaultDestination": "wwwroot/lib/",
+  "libraries": [
+    { "library": "jquery@2.2.0" },
+    { "library": "aspnet-signalr@1.0.2" },
+    { "library": "twitter-bootstrap@3.3.7" }
+  ]
+}

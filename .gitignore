@@ -1,0 +1,23 @@
+# Files
+.*
+!/.gitignore
+
+*.o
+*.ko
+*.user
+
+# Directories
+.*/
+bin/
+obj/
+build/
+int/
+lib/
+packages/
+node_modules/
+intermediates/
+debug/
+release/
+x64/
+x86/
+Selly/Selly.NMS.Web/bower_components/

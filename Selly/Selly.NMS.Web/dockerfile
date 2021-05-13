@@ -1,0 +1,6 @@
+FROM mcr.microsoft.com/dotnet/core/aspnet:2.1
+WORKDIR /app
+COPY bin/Release/netcoreapp2.1/publish .
+# Uncomment for Windows support. Build on Windows.
+# USER ContainerAdministrator
+ENTRYPOINT ["dotnet", "Selly.NMS.Web.dll"]
