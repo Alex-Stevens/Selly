@@ -10,6 +10,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.1.14" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" PrivateAssets="All" />
     <PackageReference Include="Microsoft.Web.LibraryManager.Build" Version="2.1.113" />
+    <PackageReference Include="BuildBundlerMinifier" Version="3.2.449" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Selly.Agent.API.DTO\Selly.Agent.API.DTO.csproj" />
